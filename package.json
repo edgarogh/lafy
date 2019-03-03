@@ -1,6 +1,6 @@
 {
   "name": "lafy",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Lazy Promisify",
   "keywords": [
     "async",
@@ -8,11 +8,12 @@
     "promise",
     "promisify"
   ],
-  "license": "MIT",
   "bugs": "https://github.com/edgarogh/lafy/issues",
   "repository": "github:edgarogh/lafy",
+  "license": "MIT",
   "author": "Edgar Onghena <edgar35740@gmail.com>",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "clean": "sort-package-json",
     "prepare": "run-s test clean",
